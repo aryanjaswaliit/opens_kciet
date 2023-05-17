@@ -3,13 +3,13 @@
   position: absolute;
   top: 806px;
   left: 0;
-  width: 364px;
+  width: 100vw;
   height: 684px;
 }
 .android-large-1-child {
   top: 0;
   background-color: #0d0c0c;
-  width: 360px;
+  width: 100vw;
   height: 89px;
 }
 .android-large-1-item,
@@ -17,7 +17,7 @@
   position: absolute;
   top: 89px;
   left: 0;
-  width: 360px;
+  width: 100vw;
 }
 .background-1-icon {
   height: 717px;
@@ -162,7 +162,7 @@
   top: 1485px;
   left: 0;
   background-color: #39225e;
-  width: 360px;
+  width: 100vw;
   height: 234px;
 }
 .illuminati-team {
