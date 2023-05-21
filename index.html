@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
     />
   </head>
-  <body>
+  <body onload="load()">
     <div class="android-large-1">
       <img class="back-ground-2-icon" alt="" src="./public/back-ground-2.svg" />
 
@@ -61,5 +61,15 @@
         <span class="illuminati-team">illuminati Team</span>
       </b>
     </div>
+
+    <!-- script for run -->
+    <script>
+    function load(){
+    let a  = document.getElementsByClassName("background-1-icon")
+
+    let rand = Math.floor(Math.random()*6) + 1;
+    a[0].src = "images/images/bg_"+rand+".png"
+    }
+    </script>
   </body>
 </html>
